@@ -9,6 +9,8 @@ Example (Input --> Output)
 "Hi There." --> "There. Hi"
 */
 
-function reverse(string){
-  //your code here
+const reverse = (string) => {
+  let arr = string.split(' ');
+  let nArr = arr.reverse();
+  return nArr.join(' ');
 }
